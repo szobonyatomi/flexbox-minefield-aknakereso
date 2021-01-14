@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: pressStart2;
+  src: url(assets/PressStart2P-Regular.ttf);
+}
+
 body {
   height: 100wh;
   width: 100wv;
@@ -11,6 +16,7 @@ body {
   justify-content: center;
   padding-top: 10rem;
   background: #f5df4d;
+  font-family: pressStart2;
 }
 .field {
   width: 30rem;
@@ -38,9 +44,31 @@ body {
   height: auto;
   background: #cbcbcb;
   border: 1px dashed #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
 }
 
-.q11 {
+.q1 {
+  color: blue;
+}
+
+.q2 {
+  color: green;
+}
+.q3 {
+  color: red;
+}
+
+.qb {
+  background-image: url(assets/bomb.svg);
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.qh {
   background: #cbcbcb;
   border-width: 1px;
   outline: 6px outset #fff;
@@ -48,11 +76,10 @@ body {
 }
 
 .q11:hover {
-  background-color: #cbcbcb;
+  background: #cbcbcb;
   outline: none;
 }
 
-.q11:visited {
-  background-color: #cbcbcb;
-  outline: none;
+.gh:hover {
+  opacity: 1;
 }

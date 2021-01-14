@@ -13,10 +13,13 @@ body {
   height: 100wh;
   width: 100wv;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 10rem;
   background: #f5df4d;
   font-family: pressStart2;
+  font-size: 2.5rem;
 }
 .field {
   width: 30rem;
@@ -26,6 +29,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   border: 10px inset;
+  margin-bottom: 10rem;
 }
 
 .row {
@@ -47,7 +51,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
 }
 
 .q1 {
@@ -88,4 +91,9 @@ body {
 .qh3:hover {
   outline: none;
   color: red;
+}
+
+p {
+  color: red;
+  text-transform: uppercase;
 }

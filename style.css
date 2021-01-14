@@ -70,16 +70,22 @@ body {
 
 .qh {
   background: #cbcbcb;
-  border-width: 1px;
   outline: 6px outset #fff;
   outline-offset: -6px;
+  color: #cbcbcb;
 }
 
-.q11:hover {
-  background: #cbcbcb;
+.qh:hover {
   outline: none;
+  color: blue;
 }
 
-.gh:hover {
-  opacity: 1;
+.qh2:hover {
+  outline: none;
+  color: green;
+}
+
+.qh3:hover {
+  outline: none;
+  color: red;
 }
